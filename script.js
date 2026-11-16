@@ -6,7 +6,7 @@
      Substitua pelo número oficial da Dra. Karen
      (DDI + DDD + Número, somente dígitos)
      ============================================================ */
-  const WHATSAPP_NUMBER = "5541999999999";
+  const WHATSAPP_NUMBER = "5541997435254";
   const DEFAULT_WA_MESSAGE = "Olá, Dra. Karen! Gostaria de solicitar um atendimento jurídico criminal.";
 
   const buildWhatsAppUrl = (message) => {
