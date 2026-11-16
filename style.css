@@ -903,90 +903,7 @@ section {
   line-height: 1.8;
   color: rgba(245, 242, 236, 0.76);
   max-width: 620px;
-  margin-bottom: 24px;
-}
-
-.urgent-list {
-  display: grid;
-  gap: 10px;
-  margin-bottom: 32px;
-}
-
-.urgent-list li {
-  position: relative;
-  padding-left: 24px;
-  font-size: 0.86rem;
-  color: rgba(245, 242, 236, 0.86);
-  letter-spacing: 0.02em;
-}
-
-.urgent-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.62em;
-  width: 10px;
-  height: 1px;
-  background: var(--gold-light);
-}
-
-/* Botão dourado com shimmer */
-.btn-gold {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  position: relative;
-  overflow: hidden;
-  isolation: isolate;
-  padding: 16px 30px;
-  border-radius: 2px;
-  border: 1px solid rgba(35, 26, 20, 0.25);
-  background: var(--gold-gradient);
-  background-size: 200% 100%;
-  color: #1A130E;
-  font-family: inherit;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.32);
-  transition: var(--transition-smooth);
-}
-
-.btn-gold::after {
-  content: "";
-  position: absolute;
-  top: -40%;
-  left: -70%;
-  width: 45%;
-  height: 180%;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.5) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  transform: rotate(22deg);
-  animation: btnShimmer 4.2s infinite ease-in-out;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.btn-gold > * {
-  position: relative;
-  z-index: 2;
-}
-
-.btn-gold .wa-icon-badge {
-  width: 22px;
-  height: 22px;
-  color: #10240F;
-}
-
-.btn-gold:hover {
-  transform: translateY(-3px);
-  background-position: 100% 0;
-  box-shadow: 0 20px 42px rgba(0, 0, 0, 0.4);
+  margin-bottom: 0;
 }
 
 .urgent-emblem {
@@ -1018,28 +935,13 @@ section {
   text-align: center;
 }
 
-.urgent-emblem-core strong {
+.urgent-emblem-icon {
   display: block;
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 600;
-  font-size: 3.7rem;
-  line-height: 1;
-  background: var(--gold-metallic);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  width: 62px;
+  height: 62px;
+  margin: 0 auto;
   color: var(--gold-light);
-}
-
-.urgent-emblem-core span {
-  display: block;
-  margin-top: 8px;
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  line-height: 1.7;
-  color: rgba(245, 242, 236, 0.72);
+  opacity: 0.92;
 }
 
 /* ==================== ATENDIMENTO & LOCALIZAÇÃO ==================== */
@@ -1495,14 +1397,6 @@ body.menu-open {
     text-align: center;
   }
 
-  .urgent-copy .urgent-list {
-    justify-items: center;
-  }
-
-  .urgent-list li {
-    text-align: left;
-  }
-
   .urgent-text {
     margin-left: auto;
     margin-right: auto;
@@ -1617,8 +1511,9 @@ body.menu-open {
     height: 168px;
   }
 
-  .urgent-emblem-core strong {
-    font-size: 3rem;
+  .urgent-emblem-icon {
+    width: 52px;
+    height: 52px;
   }
 
   .whatsapp-float {
@@ -1665,8 +1560,7 @@ body.menu-open {
     font-size: 0.72rem;
   }
 
-  .btn-agendamento-principal,
-  .btn-gold {
+  .btn-agendamento-principal {
     width: 100%;
     justify-content: center;
     padding: 15px 22px;
@@ -1716,13 +1610,9 @@ body.menu-open {
     inset: 12px;
   }
 
-  .urgent-emblem-core strong {
-    font-size: 2.6rem;
-  }
-
-  .urgent-emblem-core span {
-    font-size: 0.55rem;
-    letter-spacing: 0.18em;
+  .urgent-emblem-icon {
+    width: 44px;
+    height: 44px;
   }
 
   .area-card {
