@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Gradiente dourado original da marca -->
+    <linearGradient id="krGoldGrad" x1="80" y1="40" x2="340" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DFC286" />
+      <stop offset="35%" stop-color="#B89150" />
+      <stop offset="70%" stop-color="#9E783A" />
+      <stop offset="100%" stop-color="#D4B475" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo espresso -->
+  <rect width="512" height="512" fill="#231A14" />
+
+  <!--
+    Monograma K & R: paths copiados literalmente do SVG do logotipo principal (index.html),
+    sem qualquer alteração de comandos, curvas ou proporções.
+    O viewBox aninhado corresponde exatamente à caixa delimitadora do monograma original
+    (x 122-333, y 62-221) e é posicionado com 409,34 x 308,46 px, centralizado em 512 x 512
+    (ocupação de 79,95% da largura, margens simétricas).
+  -->
+  <svg x="51.33" y="101.77" width="409.34" height="308.46" viewBox="122 62 211 159" preserveAspectRatio="xMidYMid meet">
+    <!-- Haste vertical do K com serifas -->
+    <path d="M122 62H164V66H151V202H164V206H122V202H135V66H122V62Z" fill="url(#krGoldGrad)" />
+    <!-- Braço superior do K -->
+    <path d="M150 132L215 66H202V62H238V66H224L159 132H150Z" fill="url(#krGoldGrad)" />
+    <!-- Perna fluida inferior do K -->
+    <path d="M135 130C178 134 202 184 248 206C222 206 196 188 152 138L135 130Z" fill="url(#krGoldGrad)" />
+    <!-- Arco e perna do R entrelaçado -->
+    <path d="M206 94H244C276 94 294 110 294 132C294 152 278 167 250 169C272 180 286 212 316 214C323 214 329 211 333 208C327 217 316 221 304 220C276 218 262 184 236 170H214V166H242C267 166 280 152 280 132C280 112 266 98 242 98H206V94Z" fill="url(#krGoldGrad)" />
+    <!-- Curva central entrelaçada K -> R -->
+    <path d="M136 130C188 130 218 168 264 198C240 196 212 170 165 138C154 132 144 131 136 130Z" fill="url(#krGoldGrad)" />
+  </svg>
+</svg>
