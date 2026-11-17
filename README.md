@@ -1,4 +1,4 @@
-# Site Institucional — Karen Priscila da Rosa Dainez
+# Site Institucional — Advocacia
 
 Website institucional desenvolvido para apresentar a atuação profissional da advogada **Karen Priscila da Rosa Dainez**, com foco na advocacia criminalista.
 
