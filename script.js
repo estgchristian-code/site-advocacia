@@ -7,7 +7,7 @@
      (DDI + DDD + Número, somente dígitos)
      ============================================================ */
   const WHATSAPP_NUMBER = "5541997435254";
-  const DEFAULT_WA_MESSAGE = "Olá, Dra. Karen! Gostaria de solicitar um atendimento jurídico criminal.";
+  const DEFAULT_WA_MESSAGE = "Olá, Dra. Karen Priscila. Gostaria de realizar um agendamento online para orientação jurídica.";
 
   const buildWhatsAppUrl = (message) => {
     const text = (message && message.trim()) || DEFAULT_WA_MESSAGE;
