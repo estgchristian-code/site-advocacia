@@ -146,43 +146,43 @@
     });
   });
 
-  /* ==================== DADOS DAS 6 ÁREAS CRIMINAIS ==================== */
+  /* ==================== DADOS DAS 6 ÁREAS DE ATUAÇÃO ==================== */
   const areaDetails = {
+    civel: {
+      title: "Direito Cível e Contratos",
+      description:
+        "Assessoria jurídica preventiva e contenciosa em questões civis e empresariais: elaboração, revisão e negociação de contratos, ações de indenização por danos materiais e morais, cobranças, execuções e ações possessórias e de usucapião, com atuação orientada à segurança jurídica e à proteção patrimonial do cliente.",
+      msg: "Olá, Dra. Karen! Gostaria de atendimento sobre Direito Cível e Contratos."
+    },
+    familia: {
+      title: "Direito de Família e Sucessões",
+      description:
+        "Atuação sensível e estratégica em divórcio consensual e litigioso, fixação e revisão de pensão alimentícia, guarda e regime de convivência, reconhecimento e dissolução de união estável, inventários, arrolamento de bens e partilha, sempre com discrição e foco na preservação dos vínculos familiares.",
+      msg: "Olá, Dra. Karen! Gostaria de atendimento sobre Direito de Família e Sucessões."
+    },
     flagrante: {
       title: "Prisão em Flagrante e Audiência de Custódia",
       description:
-        "Os primeiros momentos após uma prisão são decisivos. Realizamos o acompanhamento presencial em delegacias para assegurar o direito ao silêncio, verificar a legalidade do auto de prisão em flagrante e sustentar, na Audiência de Custódia, o relaxamento da prisão ou a concessão de liberdade provisória.",
+        "Os primeiros momentos após uma prisão são decisivos. Realizamos o acompanhamento imediato em delegacias, verificamos a legalidade do auto de prisão em flagrante e atuamos com defesa técnica na Audiência de Custódia, sustentando o relaxamento da prisão ou a concessão de liberdade provisória.",
       msg: "Olá, Dra. Karen! Preciso de orientação urgente sobre Prisão em Flagrante / Audiência de Custódia."
     },
-    inquerito: {
-      title: "Inquérito Policial e Investigação Defensiva",
-      description:
-        "Atuação preventiva e estratégica durante a fase investigativa. Analisamos o inquérito policial, acompanhamos o investigado em oitivas, requeremos diligências essenciais à comprovação da inocência e combatemos indiciamentos desprovidos de justa causa.",
-      msg: "Olá, Dra. Karen! Gostaria de atendimento sobre Inquérito Policial / Investigação."
-    },
     habeas: {
-      title: "Habeas Corpus e Medidas Liberatórias",
+      title: "Habeas Corpus e Inquéritos Policiais",
       description:
-        "Elaboração técnica de Habeas Corpus perante os Tribunais Estaduais, STJ e STF, além de pedidos de revogação de prisão preventiva ou temporária e substituição por medidas cautelares diversas da prisão.",
-      msg: "Olá, Dra. Karen! Gostaria de falar sobre Habeas Corpus / Pedido de Liberdade."
+        "Impetração de Habeas Corpus com pedido liminar perante os Tribunais Estaduais, o STJ e o STF, pedidos de revogação de prisão preventiva ou temporária, acompanhamento de depoimentos e oitivas e trancamento de inquérito policial desprovido de justa causa.",
+      msg: "Olá, Dra. Karen! Gostaria de falar sobre Habeas Corpus / Inquérito Policial."
     },
     processos: {
-      title: "Defesa em Processos Criminais",
+      title: "Processos Criminais e Tribunal do Júri",
       description:
-        "Defesa técnica completa em ações penais de rito ordinário, sumário e sumaríssimo, abrangendo delitos patrimoniais, crimes contra a honra, delitos de trânsito, Lei de Drogas, crimes econômicos e violência doméstica.",
-      msg: "Olá, Dra. Karen! Preciso de defesa técnica em um Processo Criminal."
+        "Defesa técnica em ações penais de rito ordinário, sumário e sumaríssimo, com arguição de nulidades processuais, atuação no Tribunal do Júri nos crimes dolosos contra a vida, acordo de não persecução penal (ANPP) e acompanhamento de execução penal.",
+      msg: "Olá, Dra. Karen! Preciso de defesa técnica em um Processo Criminal / Tribunal do Júri."
     },
-    juri: {
-      title: "Tribunal do Júri",
+    tribunais: {
+      title: "Recursos no TJPR, STJ e STF",
       description:
-        "Atuação dedicada nos processos de competência do Tribunal do Júri, com preparação rigorosa da tese defensiva desde o sumário da culpa, análise técnica de laudos periciais e sustentação oral combativa perante os jurados.",
-      msg: "Olá, Dra. Karen! Gostaria de atendimento referente a um caso do Tribunal do Júri."
-    },
-    recursos: {
-      title: "Recursos Criminais (TJPR, STJ e STF)",
-      description:
-        "Revisão minuciosa de sentenças e acórdãos condenatórios para interposição de Apelações, Recursos em Sentido Estrito, Revisões Criminais, Recursos Especial e Extraordinário, incluindo realização de sustentação oral.",
-      msg: "Olá, Dra. Karen! Gostaria de analisar a possibilidade de Recurso Criminal."
+        "Atuação recursal estratégica nas áreas Cível, de Família e Criminal, com revisão minuciosa de sentenças e acórdãos para interposição de apelações, agravos, recursos especial e extraordinário, elaboração de memoriais e realização de sustentação oral nos tribunais.",
+      msg: "Olá, Dra. Karen! Gostaria de analisar a possibilidade de Recurso no TJPR, STJ ou STF."
     }
   };
 
